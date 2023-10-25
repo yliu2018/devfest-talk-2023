@@ -14,8 +14,6 @@ from sklearn.model_selection import train_test_split
 
 from house_explainer.dataprep.transformations import transformation
 
-temp_dir = tempfile.TemporaryDirectory()
-
 
 def train_regressor(train_data: pd.DataFrame, run_id: str) -> Any:
     (train_data, new_columns) = transformation(train_data)

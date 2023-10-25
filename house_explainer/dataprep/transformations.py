@@ -3,6 +3,11 @@ from typing import Tuple
 import numpy as np
 import pandas as pd
 
+###
+# the following data preprocessing code is derived from
+# https://www.kaggle.com/code/lasmith/house-price-regression-with-lightgbm
+###
+
 
 def one_hot_encoder(df, nan_as_category=True):
     original_columns = list(df.columns)
