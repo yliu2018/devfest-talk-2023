@@ -1,0 +1,12 @@
+matplotlib
+pandas
+numpy
+scikit-learn
+sklearn_evaluation
+mlflow
+mlflow-skinny
+seaborn
+scipy
+lightgbm
+shap
+boto3
